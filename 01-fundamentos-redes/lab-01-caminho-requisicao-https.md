@@ -94,8 +94,8 @@ HTTP/2 200
 ```
 
 > **Nota:** O diagrama apresenta as etapas de forma simplificada.
-Como o servidor DNS observado também está fora da rede local,
-a consulta DNS é encaminhada pelo gateway.
+> Como o servidor DNS observado também está fora da rede local,
+> a consulta DNS é encaminhada pelo gateway.
 
 
 ## RESULTADOS OBSERVADOS
@@ -148,8 +148,7 @@ retornou:
 HTTP/2 200
 ```
 
-O código de status `200` indica que a requisição foi processada com
-sucesso pelo destino.
+O código de status `200 (OK)` indica que a requisição foi bem-sucedida.
 
 
 ## OSI x TCP/IP
@@ -196,7 +195,7 @@ O modelo OSI possui sete camadas e é muito utilizado para compreender e diagnos
 
 
 ## TRANSPORTE (TCP, UDP)
-É responsável pelo transporte de dados entre aplicações. Neste laboratório, a consulta DNS foi realizada usando UDP na porta 53, enquanto a comunicação HTTPS utilizou TCP na porta 443. O TCP fornece uma comunicação confiável e ordenada entre cliente e servidor.
+É responsável pelo transporte de dados entre aplicações. Neste laboratório, a consulta DNS foi realizada usando UDP na porta 53, enquanto a comunicação HTTPS utilizou TCP na porta 443. O TCP fornece às aplicações um fluxo de dados confiável e ordenado.
 
 
 ## INTERNET (IP)

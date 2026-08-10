@@ -1,4 +1,5 @@
 # LAB 01 — CAMINHO DE UMA REQUISIÇÃO HTTPS
+```text
 │
 ├── Objetivo
 ├── Ambiente
@@ -14,6 +15,7 @@
 ├── Encapsulamento e desencapsulamento
 ├── Formação complementar
 └── O que aprendi / Conclusão
+```
 
 ## OBJETIVO
 Entender o caminho percorrido por uma requisição HTTPS, desde a resolução do nome do domínio até a resposta do servidor, relacionando o processo às camadas do modelo TCP/IP.
